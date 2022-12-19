@@ -1,0 +1,218 @@
+/* tablet */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+        max-width: 748px;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .dn_tablet {
+        display: none;
+    }
+    /* navbar */
+    .logo_icon {
+        width: 167px;
+    }
+    .navbar {
+        display: flex;
+        align-self: center;
+        justify-content: space-between;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .search {
+        width: 246px;
+    }
+    .search-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 54px;
+        width: 50px;
+        background: #82BA01;
+        color: white;
+        border-radius: 0px 6px 6px 0px;
+        border: none;
+        cursor: pointer;
+        opacity: 0.9;
+    }
+    .mail {
+        display: none;
+    }
+    .location-address {
+        display: none;
+    }
+    .call-number {
+        display: none;
+    }
+    .shopping_bag {
+        display: block;
+        width: 56px;
+        padding: 15px;
+        border: 2px solid #F9F9F9;
+        border-radius: 50%;
+    }
+    .burger {
+        display: block;
+        width: 56px;
+        padding: 15px;
+        border: 2px solid #F9F9F9;
+        border-radius: 50%;
+    }
+    .location {
+        width: 56px;
+    }
+    .call {
+        width: 56px;
+    }
+
+    /* navbar links */
+    .more {
+        display: block;
+    } 
+    .product-img {
+        display: none;
+    }
+    .product-img_res {
+        display: block;
+
+    }
+
+    .buttons {
+        display: flex;
+    }
+    .shop {
+        height: 65px;
+        width: 190px;
+        text-decoration: none;
+        padding: 15px 50px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        color: #FFFFFF;
+        background: #6701BA;
+        box-shadow: 0px 20px 50px -8px rgba(65, 14, 106, 0.35);
+        border-radius: 6px;
+    }
+    .more {
+        height: 65px;
+        margin-left: 10px;
+        width: 190px;
+        text-decoration: none;
+        padding: 15px 45px ;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        color: #272727;
+        border: 1px solid #6701BA;
+        border-radius: 6px;
+    }
+    .auc-box {
+        display: block;
+    } 
+    .auc-img {
+        width: 100%;
+    }
+    .auc-img img {
+        width: 700px;
+        height: 350px;
+    }
+    .auc-info {
+        margin-top: 70px;
+        width: 100%;
+    }
+    .company-box {
+        display: block;
+        flex-direction: row;
+    }
+    .company-box__text {
+        display: block;
+    }
+    .company-box__text__row__col {
+        margin-top: 40px;
+        width: 229px;
+    }
+}
+/* mobile */
+@media screen and (max-width: 320px) {
+    .dn_app {
+        display: none;
+    }
+    .container {
+        width: 100%;
+        max-width: 300px;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+/* navbar */
+    .logo_icon {
+        width: 130px;
+    } 
+    .search {
+        display: none;
+    }    
+    .location {
+        display: none;
+    }
+    .call {
+        display: none;
+    }
+    .mail {
+        display: none;
+    }
+    .shopping_bag {
+        display: none;
+    }
+    .navbar_links {
+        display: none;
+    }
+    .product-box {
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+    .product-info {
+        width: 100%;
+        margin: 0;
+    }
+    .category_products {
+        height: 1355px;
+    }
+    .category_products-box__cols {
+        display: flex;
+        flex-direction: column;
+    }
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .shop {
+        margin-bottom: 20px;
+        margin-left: 10px;
+    }
+    .auc-img img {
+        width: 260px;
+        height: 300px;
+    }
+    .company {
+        margin-top: 135px;
+    }
+    .company-box__text__row {
+        display: flex;
+        flex-direction: column;
+    }
+    .news-box__cols {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-text {
+        display: flex;
+        flex-direction: column;
+        height: 1217px;
+    }
+}

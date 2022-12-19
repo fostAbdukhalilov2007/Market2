@@ -6,15 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Market TDA</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/response.css">
 </head>
 <body>
-    
     <header>
         <div class="navbar_box">
             <div class="container">
                 <div class="navbar">
                     <div class="logo">
-                        <img src="./img/logo.svg" class="logo_icon" height="84" width="190" alt="Logo_TDA">
+                        <img src="./img/logo.svg" class="logo_icon" alt="Logo_TDA">
                     </div>
     
                     <div class="search">
@@ -30,20 +30,22 @@
                         </div>
                         
                         <div class="location-address">
-                            <p class="location-address__p">Выберите филиал:</p>
-                            <label for="location">
-                                <select class="location-selector">
-                                    <option value="г. Владивосток">
-                                        г. Владивосток
-                                    </option>
-                                    <option value="г. Владивосток">
-                                        г. Владивосток
-                                    </option>
-                                    <option value="г. Владивосток">
-                                        г. Владивосток
-                                    </option>
-                                </select>
-                            </label>
+                            <span class="dn_app dn_tablet">
+                                <p class="location-address__p">Выберите филиал:</p>
+                                <label for="location">
+                                    <select class="location-selector">
+                                        <option value="г. Владивосток">
+                                            г. Владивосток
+                                        </option>
+                                        <option value="г. Владивосток">
+                                            г. Владивосток
+                                        </option>
+                                        <option value="г. Владивосток">
+                                            г. Владивосток
+                                        </option>
+                                    </select>
+                                </label>
+                            </span>
                         </div>
                     </div>
     
@@ -63,9 +65,15 @@
                             <img src="./img/mail.svg" width="20" height="20" alt="mail-icon">
                             <p class="mail-text">Написать нам</p>
                         </div>
-                        
                     </a>
-    
+
+                    <div class="shopping_bag">
+                        <img class="shopping_bag-img" src="./img/shopping-bag.svg" alt="bag">
+                    </div>
+                    
+                    <div class="burger">
+                        <img src="./img/burger.svg" alt="burger">
+                    </div>
                 </div>
             </div>
 
@@ -73,21 +81,21 @@
                 <div class="container">
                     <ul class="navigation">
                         <div class="category">
-                            <div class="category-icon">
-                                <span class="burger"></span>
-                                <span class="burger"></span>
-                                <span class="burger"></span>
-                            </div>
                             <p class="category-catalog">Каталог</p>
                         </div>
                         <li><a href="#">Молочная продукция</a></li>
                         <li><a href="#">Мясная продукция</a></li>
                         <li><a href="#">Напитки</a></li>
-                        <li><a href="#">Бакалея</a></li>
-                        <li><a href="#">Грибы</a></li>
-                        <li><a href="#">Крупы</a></li>
-                        <li><a href="#">Овощи</a></li>
-                        <li><a href="#">Ягоды</a></li>
+                        
+                        <li class="dn_app dn_tablet"><a href="#">Бакалея</a></li>
+                        <li class="dn_app dn_tablet"><a href="#">Грибы</a></li>
+                        <li class="dn_app dn_tablet"><a href="#">Крупы</a></li>
+                        <li class="dn_app dn_tablet"><a href="#">Овощи</a></li>
+                        <li class="dn_app dn_tablet"><a href="#">Ягоды</a></li>
+                        
+                        <div class="more_icon">
+                            <img src="./img/more.svg" alt="more">
+                        </div>
                     </ul>
                 </div>
                 
@@ -102,22 +110,22 @@
             <div class="col">
                 <img src="./img/col2.svg" height="100" width="150" alt="col">
             </div>
-            <div class="col">
+            <div class="col dn_app">
                 <img src="./img/col3.svg" height="100" width="150" alt="col">
             </div>
-            <div class="col">
+            <div class="col dn_app ">
                 <img src="./img/col1.svg" height="100" width="150" alt="col">
             </div>
-            <div class="col">
+            <div class="col dn_app dn_tablet">
                 <img src="./img/col2.svg" height="100" width="150" alt="col">
             </div>
-            <div class="col">
+            <div class="col dn_app dn_tablet">
                 <img src="./img/col3.svg" height="100" width="150" alt="col">
             </div>
-            <div class="col">
+            <div class="col dn_app dn_tablet">
                 <img src="./img/col1.svg" height="100" width="150" alt="col">
             </div>
-            <div class="col">
+            <div class="col dn_app dn_tablet">
                 <img src="./img/col2.svg" height="100" width="150" alt="col">
             </div>
         </div>
@@ -128,6 +136,9 @@
         <section class="product">
             <div class="container">  
                 <div class="product-box">
+                    <div class="product-img_res">
+                        <img src="./img/banka.svg" alt="">
+                    </div>
                     <div class="product-info">
                         <p class="product-info__price">
                             250 ₽/шт
@@ -153,7 +164,7 @@
                         
                         <div class="buttons">
                             <a href="#" class="shop">В корзину</a>
-                        <a href="#" class="more">Подробнее</a>
+                            <a href="#" class="more">Подробнее</a>
                         </div>
     
                     </div>
@@ -171,7 +182,7 @@
                     <div class="category_products-box__text">
                         <p class="category_products-box__col__text__h1">Популярные категории</p>
     
-                        <a href="#">Смотреть все</a>
+                        <a href="#" class="dn_app ">Смотреть все</a>
                     </div>
                     <div class="category_products-box__cols">
                         <div class="category_products-box__col">
@@ -182,18 +193,16 @@
                             <img src="./img/meat.png" width="300" height="190" alt="meat">
                             <p class="category_products-box__col__text">Мясная продукция</p>
                         </div>
-                        <div class="category_products-box__col">
+                        <div class="category_products-box__col none">
                             <img src="./img/vegetables.png" width="300" height="190" alt="vegetables">
                             <p class="category_products-box__col__text">Овощи</p>
                         </div>
-                        <div class="category_products-box__col">
+                        <div class="category_products-box__col none">
                             <img src="./img/fruits.png" width="300" height="190" alt="fruits">
                             <p class="category_products-box__col__text">Ягоды</p>
                         </div>
                     </div>
-                    <!-- <div class="scroll">
-                        <span class="scroll-body"><span class="scroll-icon"></span></span>
-                    </div> -->
+                    
                 </div>
             </div>
         </section>
@@ -203,7 +212,7 @@
                 <div class="auc-box__text">
                     <p class="auc-box__col__text__h1">Акционные товары</p>
         
-                    <a href="#">Смотреть все</a>
+                    <a href="#" class="dn_app">Смотреть все</a>
                 </div>
                 
                 <div class="auc-box">
@@ -230,7 +239,7 @@
                     </div>
     
                     <div class="auc-img">
-                        <img src="./img/auc.png" width="740" height="630" alt="auc">
+                        <img src="./img/auc.png" alt="auc">
                     </div>
                 </div>
             </div>
@@ -276,7 +285,7 @@
                             Новости
                         </p>
             
-                        <a href="#">Все новости</a>
+                        <a href="#" class="dn_app"> Все новости</a>
                     </div>
 
                     <div class="news-box__cols">
@@ -305,7 +314,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="news-box__col">
+                        <div class="news-box__col none">
                             <img src="./img/cup.png" width="300" height="190" alt="vegetables">
                             
                             <div class="news-box__col__text">
