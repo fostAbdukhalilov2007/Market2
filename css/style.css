@@ -432,7 +432,7 @@ footer {
 .footer-text {
     display: flex;
     height: 497px;
-    padding-top: 97px;
+    padding-top: 40px;
 }
 .footer-text__logo_icon {
     margin-right: 30px;
