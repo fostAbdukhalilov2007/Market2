@@ -153,6 +153,13 @@
     .tablet_flex{
         display: flex;
     }
+
+    /* Самое ценное в нашем мире — овощи */
+    .vegetables__box-text__section {
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
 }
 /* mobile */
 @media only screen and (max-width: 425px) {
@@ -245,5 +252,37 @@
     }
     .footer-link__text__icon {
         margin-top: 15px;
+    }
+
+    /* Самое ценное в нашем мире — овощи */
+    .vegetables__box-text__section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .vegetables__box-text__section__img_img {
+        width: 300px;
+        height: 280px;
+    }
+
+    .vegetables__box-text__h1 {
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 35px;
+    }
+    .vegetables__box-text__p {
+        margin-top: 20px;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .vegetables__btn {
+        margin-top: 64px;
+        margin-bottom: 100px;
+        display: flex;
+        flex-direction: column;
+    }
+    .next {
+        margin-top: 20px;
     }
 }
