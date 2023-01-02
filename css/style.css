@@ -633,3 +633,51 @@ footer {
 }
 
 /* valuable vegetables page */
+
+/* error page */
+
+.error {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.error__box-h1 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+    color: #272727;
+    margin-bottom: 30px;
+}
+.error__box-p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #A8A8A8;
+    margin-bottom: 50px;
+}
+.error__box-btn {
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.error__box-btn__menu {
+    margin-left: 30px;
+    padding: 15px 50px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #272727;
+    border: 1px solid #6701BA;
+    border-radius: 6px;
+}
+.error__box-bg {
+    width: 600px;
+    height: 400px;
+}
+
+/* error page end */
